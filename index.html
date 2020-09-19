@@ -18,6 +18,7 @@
                 <li><a href="#contato">contato</a></li>
                 <li><a href="#login">login</a></li>
             </ul>
+            <div class="toggle" onclick="toggle()"></div>
         </header>
         <!-- Banner -->
         <section class="banner" id="home">
@@ -130,7 +131,7 @@
             </div>
         </section>
         <!-- Contato -->
-        <section class="sec" id="team">
+        <section class="sec contact" id="contact">
             <div class="content">
                 <div class="mxw800p">
                     <h3>Nos envie uma mensagem!</h3>
@@ -142,14 +143,39 @@
                             <div class="inputBx50">
                                 <input type="text" name="" placeholder="Nome Completo">
                             </div>
+                            <div class="inputBx50">
+                                <input type="text" name="" placeholder="Endereço de e-mail">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <input type="submit" name="" value="Enviar">
+                            </div>
                         </div>
                     </form>
                 </div>
+                <div class="sci">
+                    <ul>
+                        <li><a href="#"><img src="img/facebook.png"></a></li>
+                        <li><a href="#"><img src="img/twitter.png"></a></li>
+                        <li><a href="#"><img src="img/instagram.png"></a></li>
+                    </ul>
+                </div>
+            <p class="copyright">Design & Developed by <a href="#">Nome</a></p>
         <script type="text/javascript">
             window.addEventListener("scroll", function(){
                 var header = document.querySelector("header");
                 header.classList.toggle("sticky", window.scrollY > 0);
             })
+            function toggle(){
+                var header = document.querySelector("header");
+                header.classList.toggle("active");
+            }
         </script>       
     </body>
 </html>
