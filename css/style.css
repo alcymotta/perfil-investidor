@@ -428,33 +428,85 @@ p
     background: #fff;
     z-index: 1;
     transition: 0.5s;
- }     
-}
-header
-{
-    padding: 5px 50px;
-    background: #DCC906;
-}
-header ul
-{
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    overflow: auto;
-    background: #fff;
-    visibility: hidden;
-    opacity: 0;
-}
-header .active ul
-{
-    visibility: visible;
-    opacity: 1;
-}
-header .logo,
-header ul li a
-{
-    color: #000;
+}     
+    header,
+    header.sticky
+    {
+        padding: 5px 50px;
+        background: #DCC906;
+    }
+    header ul
+    {
+        position: absolute;
+        top: 59px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        overflow: auto;
+        background: #fff;
+        visibility: hidden;
+        opacity: 0;
+    }
+    header .active ul
+    {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        padding-top: 20px;
+    }
+    header .active ul li a
+    {
+        display: inline-block;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    header .logo,
+    header ul li a
+    {
+        color: #000;
+    }
+    .banner
+    {
+    background-position: center;
+    }
+    .banner h2
+    {
+        font-size: 60px;
+        padding: 0 50px;
+    }
+    .sec
+    {
+        padding: 100px 50px 50px 50px;
+    }
+    .services .box
+    {
+        width: 100%;
+    }
+    .stats
+    {
+        padding-top: 250px;
+    }
+    .row100
+    {
+        flex-direction: column;
+    }
+    .contactForm .row100 .inputBx50,
+    .contactForm .row100 .inputBx100
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .sci
+    {
+        margin: 20px;
+    }
+    .sci ul li a img
+    {
+        font-size: 24px;    
+    }
+    h3
+    {
+        font-size: 36px;
+    }
 }
