@@ -2,84 +2,107 @@
 <html lang="pt-BR">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Investidor | Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/styleQuiz.css">
 </head>
 
 <body>
     <fieldset>
         <p>Por quanto tempo você pretende deixar seu dinheiro investido?</p>
-        <input type="radio" name="resposta" value="op1" class="teste">Menos de 6 meses
-        <input type="radio" name="resposta" value="op2" class="teste">Entre 6 e 1 ano
-        <input type="radio" name="resposta" value="op3" class="teste">Entre 1 ano e 3 anos
-        <input type="radio" name="resposta" value="op4" class="teste">Acima de 3 anos
-
+        <div class="respostas">
+            <input type="radio" name="resposta" value="op1" class="teste">Menos de 6 meses<br>
+            <input type="radio" name="resposta" value="op2" class="teste">Entre 6 e 1 ano<br>
+            <input type="radio" name="resposta" value="op3" class="teste">Entre 1 ano e 3 anos<br>
+            <input type="radio" name="resposta" value="op4" class="teste">Acima de 3 anos<br>
+        </div>
         <p>Qual o objetivo desse investimento?</p>
-        <input type="radio" name="respostaUm" value="op1">Preservação do capital para não perder valor ao longo do
-        tempo, assumindo baixos riscos de perdas
-        <input type="radio" name="respostaUm" value="op2">Aumento gradual do capital ao longo do tempo, assumindo riscos
-        moderados
-        <input type="radio" name="respostaUm" value="op3">Aumento do capital acima da taxa de retorno média do mercado,
-        mesmo que isso implique assumir riscos de perdas elevadas
-        <input type="radio" name="respostaUm" value="op4">Obter no curto prazo retornos elevados e significativamente
-        acima da taxa de retorno média do mercado, assumindo riscos elevados
+        <div class="respostas">
+            <input type="radio" name="respostaUm" value="op1">Preservação do capital para não perder valor ao longo do
+            tempo, assumindo baixos riscos de perdas<br>
+            <input type="radio" name="respostaUm" value="op2">Aumento gradual do capital ao longo do tempo, assumindo
+            riscos moderados<br>
+            <input type="radio" name="respostaUm" value="op3">Aumento do capital acima da taxa de retorno média do
+            mercado, mesmo que isso implique assumir riscos de perdas elevadas<br>
+            <input type="radio" name="respostaUm" value="op4">Obter no curto prazo retornos elevados e
+            significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados<br>
+        </div>
 
         <p>Qual das alternativas melhor classifica sua formação e experiência com o mercado financeiro?</p>
-        <input type="radio" name="respostaDois" value="op1">Não possuo formação acadêmica ou conhecimento do mercado
-        financeiro
-        <input type="radio" name="respostaDois" value="op2">Possuo formação acadêmica na área financeira, mas não tenho
-        experiência com o mercado financeiro
-        <input type="radio" name="respostaDois" value="op3">Possuo formação acadêmica em outra área, mas possuo
-        conhecimento do mercado financeiro
-        <input type="radio" name="respostaDois" value="op4">Possuo formação acadêmica na área financeira ou pleno
-        conhecimento do mercado financeiro
-
+        <div class="respostas">
+            <input type="radio" name="respostaDois" value="op1">Não possuo formação acadêmica ou conhecimento do mercado
+            financeiro<br>
+            <input type="radio" name="respostaDois" value="op2">Possuo formação acadêmica na área financeira, mas não
+            tenho
+            experiência com o mercado financeiro<br>
+            <input type="radio" name="respostaDois" value="op3">Possuo formação acadêmica em outra área, mas possuo
+            conhecimento do mercado financeiro<br>
+            <input type="radio" name="respostaDois" value="op4">Possuo formação acadêmica na área financeira ou pleno
+            conhecimento do mercado financeiro<br>
+        </div>
         <p>Considerando seus rendimentos regulares, qual a porcentagem você pretende reservar para aplicações
             financeiras?</p>
-        <input type="radio" name="respostaTres" value="op1">No máximo 10%
-        <input type="radio" name="respostaTres" value="op2">Entre 10,01 e 25%
-        <input type="radio" name="respostaTres" value="op3">Entre 25,01 e 50%
-        <input type="radio" name="respostaTres" value="op4">Acima de 50%
-
+        <div class="respostas">
+            <input type="radio" name="respostaTres" value="op1">No máximo 10%<br>
+            <input type="radio" name="respostaTres" value="op2">Entre 10,01 e 25%<br>
+            <input type="radio" name="respostaTres" value="op3">Entre 25,01 e 50%<br>
+            <input type="radio" name="respostaTres" value="op4">Acima de 50%<br>
+        </div>
         <p>Caso as suas aplicações sofressem uma queda superior a 30%, o que você faria?</p>
-        <input type="radio" name="respostaQuatro" value="op1">Resgataria toda a aplicação e aplicaria na poupança
-        <input type="radio" name="respostaQuatro" value="op2">Manteria aplicação aguardando uma melhora do mercado
-        <input type="radio" name="respostaQuatro" value="op3">Aumentaria a aplicação para aproveitar as oportunidades do
-        mercado
-
+        <div class="respostas">
+            <input type="radio" name="respostaQuatro" value="op1">Resgataria toda a aplicação e aplicaria na
+            poupança<br>
+            <input type="radio" name="respostaQuatro" value="op2">Manteria aplicação aguardando uma melhora do
+            mercado<br>
+            <input type="radio" name="respostaQuatro" value="op3">Aumentaria a aplicação para aproveitar as
+            oportunidades do
+            mercado <br>
+        </div>
         <p>Como está distribuído o seu patrimônio?</p>
-        <input type="radio" name="respostaCinco" value="op1">Meu patrimônio não está aplicado ou está todo aplicado em
-        renda fixa e/ou imóveis
-        <input type="radio" name="respostaCinco" value="op2">Menos de 25% em renda variável e o restante em renda fixa
-        e/ou imóveis
-        <input type="radio" name="respostaCinco" value="op3">Entre 25,01 e 50% aplicado em renda variável e o restante
-        em renda fixa e/ou imóveis
-        <input type="radio" name="respostaCinco" value="op4">Acima de 50% em renda variável
-
+        <div class="respostas">
+            <input type="radio" name="respostaCinco" value="op1">Meu patrimônio não está aplicado ou está todo aplicado
+            em
+            renda fixa e/ou imóveis<br>
+            <input type="radio" name="respostaCinco" value="op2">Menos de 25% em renda variável e o restante em renda
+            fixa
+            e/ou imóveis<br>
+            <input type="radio" name="respostaCinco" value="op3">Entre 25,01 e 50% aplicado em renda variável e o
+            restante
+            em renda fixa e/ou imóveis<br>
+            <input type="radio" name="respostaCinco" value="op4">Acima de 50% em renda variável<br>
+        </div>
         <p>Em relação as aplicações e rendimentos, em qual dessas situações você se enquadra?</p>
-        <input type="radio" name="respostaSeis" value="op1">Conto com o rendimento dessas aplicações para complementar
-        minha renda mensal
-        <input type="radio" name="respostaSeis" value="op2">Eventualmente posso resgatar parte das aplicações para fazer
-        frente aos meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e pretendo fazer aplicações
-        regulares
-        <input type="radio" name="respostaSeis" value="op3">Não tenho intenção de resgatar no curto prazo e ainda
-        pretendo fazer aplicações regulares
-        <input type="radio" name="respostaSeis" value="op4">Não tenho intenção de resgatar no curto prazo, mas não
-        pretendo realizar novas aplicações
-
+        <div class="respostas">
+            <input type="radio" name="respostaSeis" value="op1">Conto com o rendimento dessas aplicações para
+            complementar
+            minha renda mensal<br>
+            <input type="radio" name="respostaSeis" value="op2">Eventualmente posso resgatar parte das aplicações para
+            fazer
+            frente aos meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e pretendo fazer aplicações
+            regulares<br>
+            <input type="radio" name="respostaSeis" value="op3">Não tenho intenção de resgatar no curto prazo e ainda
+            pretendo fazer aplicações regulares<br>
+            <input type="radio" name="respostaSeis" value="op4">Não tenho intenção de resgatar no curto prazo, mas não
+            pretendo realizar novas aplicações<br>
+        </div>
         <p>Qual sua faixa de renda mensal média?</p>
-        <input type="radio" name="respostaSete" value="op1">Até R$ 1.000
-        <input type="radio" name="respostaSete" value="op2">De R$ 1.001 até R$ 5.000
-        <input type="radio" name="respostaSete" value="op3">De R$ 5.001 até R$ 10.000
-        <input type="radio" name="respostaSete" value="op4">Acima de R$ 10.000
-
+        <div class="respostas">
+            <input type="radio" name="respostaSete" value="op1">Até R$ 1.000<br>
+            <input type="radio" name="respostaSete" value="op2">De R$ 1.001 até R$ 5.000<br>
+            <input type="radio" name="respostaSete" value="op3">De R$ 5.001 até R$ 10.000<br>
+            <input type="radio" name="respostaSete" value="op4">Acima de R$ 10.000<br>
+        </div>
         <p>Qual o valor aproximado do seu patrimônio?</p>
-        <input type="radio" name="respostaOito" value="op1">Até R$ 10.000
-        <input type="radio" name="respostaOito" value="op2">De R$ 10.001 até R$ 100.000
-        <input type="radio" name="respostaOito" value="op3">De R$ 100.001 até R$ 1.000.000
-        <input type="radio" name="respostaOito" value="op4">Acima de R$ 1.000.001
-
-        <button onclick="validarRespostas()">GERAR MEU PERFIL</button>
-
+        <div class="respostas">
+            <input type="radio" name="respostaOito" value="op1">Até R$ 10.000<br>
+            <input type="radio" name="respostaOito" value="op2">De R$ 10.001 até R$ 100.000<br>
+            <input type="radio" name="respostaOito" value="op3">De R$ 100.001 até R$ 1.000.000<br>
+            <input type="radio" name="respostaOito" value="op4">Acima de R$ 1.000.001<br>
+        </div>
+        <footer>
+            <button class="next_btn" onclick="validarRespostas()">GERAR MEU PERFIL</button>
+        </footer>
     </fieldset>
 
     <script type="text/javascript">
@@ -207,7 +230,7 @@
             } else if (total > 101) {
                 console.log('Superagressivo');
             }
-        console.log(total);
+            console.log(total);
         }
     </script>
 </body>
