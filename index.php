@@ -18,7 +18,7 @@
             <li>
                 <a href="#investimentos" onclick="toggle()">investimentos</a></li>
             <li><a href="#contact" onclick="toggle()">contato</a></li>
-            <li><a href="login.html">login</a></li>
+            <li><a href="login.php">login</a></li>
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
@@ -33,7 +33,7 @@
                 <h3>Perfil de investidor</h3>
                 <p>Serve para orientar as escolhas de produtos compatíveis com seus objetivos, de acordo com a sua
                     tolerância a risco e as suas expectativas de investimento.</p>
-                <a href="login.html" class="btn">Faça o teste</a>
+                <a href="login.php" class="btn">Faça o teste</a>
             </div>
             <div class="perfis">
                 <div class="box">
@@ -136,7 +136,7 @@
                 <p>Estamos ansiosos para ler suas dúvidas, dicas ou qualquer outra coisa que tenha à escrever.</p>
             </div>
             <div class="contactForm">
-                <form action="php/enviar.php" method="POST">
+                <form action="source/enviar.php" method="POST">
                     <div class="row100">
                         <div class="inputBx50">
                             <input type="text" id="nomeid" name="nomeid" placeholder="Nome Completo">

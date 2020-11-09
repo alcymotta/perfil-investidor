@@ -13,13 +13,13 @@
         <div class="box">
             <div class="form">
                 <h2>Login</h2>
-                <form>
+                <form action="source/login.php" method="POST">
                     <div class="inputBx">
-                        <input type="text" placeholder="Usuário">
+                        <input name="usuario" type="text" placeholder="Usuário">
                         <img src="img/user.png">
                     </div>
                     <div class="inputBx">
-                        <input type="password" placeholder="Senha">
+                        <input name="senha" type="password" placeholder="Senha">
                         <img src="img/lock.png">
                     </div>
                     <label class="remember"><input type="checkbox"> Lembrar-me</label>
@@ -30,7 +30,7 @@
                 <p>Esqueci minha <a href="#">senha</a></p>
                 <p>Criar uma <a href="cadastro.html">conta</a></p>
                 <div class="is-error">
-                    <p>ERRO: Usuário ou senha inválidos.</p>
+
                 </div>
             </div>
         </div>

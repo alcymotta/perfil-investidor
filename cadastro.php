@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Cadastrar | Qual seu perfil de investidor?</title>
+    <title>Qual seu perfil de investidor?</title>
     <link rel="stylesheet" type="text/css" href="css/styleCadastro.css">
 </head>
 
