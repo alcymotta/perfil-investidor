@@ -11,9 +11,9 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(-30deg, #DCC906 0%, #DCC906 50%, #262626 50%, #262626 100%);
+    background: linear-gradient(-150deg, #DCC906 0%, #DCC906 50%, #262626 50%, #262626 100%);
     filter: hue-rotate(120deg);
-    animation: animate 1s linear infinite;
+    animation: animate 20s linear infinite;
 }
 
 @keyframes animate {
@@ -21,7 +21,7 @@ section {
         filter: hue-rotate(0deg);
     }
     100% {
-        filter: hue-rotate(8deg);
+        filter: hue-rotate(360deg);
     }
 }
 
@@ -33,7 +33,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 6px;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
 }
@@ -56,7 +56,7 @@ section {
 }
 
 .box .form h2 {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 30px;
@@ -83,13 +83,13 @@ section {
 }
 
 .box .form .inputBx input::placeholder {
-    color: #fff;
+    color: rgba(17, 17, 17, 0.8);
 }
 
 .box .form .inputBx input[type="submit"] {
     background: #fff;
     color: #111;
-    max-width: 100px;
+    max-width: 120px;
     padding: 8px 10px;
     box-shadow: none;
     font-weight: 500;
@@ -105,15 +105,6 @@ section {
     filter: invert(1);
 }
 
-.remember {
-    position: relative;
-    display: inline-block;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
 .box .form p {
     color: #111;
     font-weight: 300;
@@ -125,9 +116,13 @@ section {
     color: #111;
 }
 
-.box .is-error p {
+.box .is-info p {
     color: #ff0000;
-    font-weight: 800;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
     margin-top: 10px;
+}
+
+.box .is-success p {
+    color: #ff0000;
 }

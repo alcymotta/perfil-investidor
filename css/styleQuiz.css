@@ -15,7 +15,8 @@
 
 fieldset {
     padding: 25px 30px 20px 30px;
-    background: #000;
+    background: url("/img/bgbg.jpg");
+    background-size: cover;
 }
 
 fieldset p {
@@ -56,10 +57,11 @@ fieldset footer {
 }
 
 fieldset footer .next_btn {
-    background: #000;
+    border: #000;
+    background: none;
     position: relative;
-    padding: 10px 30px;
-    margin: 0 15px;
+    padding: 20px 40px;
+    margin: 50px;
     color: #ECBC20;
     text-decoration: none;
     text-transform: uppercase;
@@ -72,7 +74,7 @@ fieldset footer .next_btn {
 
 fieldset footer .next_btn:hover {
     background: #ECBC20;
-    color: #111;
+    color: #000;
     box-shadow: 0 0 50px #ECBC20;
     transition-delay: 0.5s;
 }
