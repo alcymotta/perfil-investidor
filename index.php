@@ -18,7 +18,7 @@
             <li>
                 <a href="#investimentos" onclick="toggle()">investimentos</a></li>
             <li><a href="#contact" onclick="toggle()">contato</a></li>
-            <li><a href="login.php">login</a></li>
+            <li><a href="painel_login.php">login</a></li>
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
