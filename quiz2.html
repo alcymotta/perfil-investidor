@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu perfil de investidor?</title>
+    <link rel="stylesheet" type="text/css" href="css/styleQuiz.css">
+</head>
+
+<body>
+    <form id="questionario" name="questionario" method="POST" action="resposta.php">
+        <p>Por quanto tempo você pretende deixar seu dinheiro investido?</p>
+        <div class="respostas">
+            <input type="radio" name="questao1" value="op1" class="teste">Menos de 6 meses<br>
+            <input type="radio" name="questao1" value="op2" class="teste">Entre 6 e 1 ano<br>
+            <input type="radio" name="questao1" value="op3" class="teste">Entre 1 ano e 3 anos<br>
+            <input type="radio" name="questao1" value="op4" class="teste">Acima de 3 anos<br>
+        </div>
+        <p>Qual o objetivo desse investimento?</p>
+        <div class="respostas">
+            <input type="radio" name="questao2" value="op1">Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas<br>
+            <input type="radio" name="questao2" value="op2">Aumento gradual do capital ao longo do tempo, assumindo riscos moderados<br>
+            <input type="radio" name="questao2" value="op3">Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas<br>
+            <input type="radio" name="questao2" value="op4">Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados<br>
+        </div>
+
+        <p>Qual das alternativas melhor classifica sua formação e experiência com o mercado financeiro?</p>
+        <div class="respostas">
+            <input type="radio" name="questao3" value="op1">Não possuo formação acadêmica ou conhecimento do mercado financeiro
+            <br>
+            <input type="radio" name="questao3" value="op2">Possuo formação acadêmica na área financeira, mas não tenho experiência com o mercado financeiro<br>
+            <input type="radio" name="questao3" value="op3">Possuo formação acadêmica em outra área, mas possuo conhecimento do mercado financeiro<br>
+            <input type="radio" name="questao3" value="op4">Possuo formação acadêmica na área financeira ou pleno conhecimento do mercado financeiro<br>
+        </div>
+        <p>Considerando seus rendimentos regulares, qual a porcentagem você pretende reservar para aplicações financeiras?
+        </p>
+        <div class="respostas">
+            <input type="radio" name="questao4" value="op1">No máximo 10%<br>
+            <input type="radio" name="questao4" value="op2">Entre 10,01 e 25%<br>
+            <input type="radio" name="questao4" value="op3">Entre 25,01 e 50%<br>
+            <input type="radio" name="questao4" value="op4">Acima de 50%<br>
+        </div>
+        <p>Caso as suas aplicações sofressem uma queda superior a 30%, o que você faria?</p>
+        <div class="respostas">
+            <input type="radio" name="questao5" value="op1">Resgataria toda a aplicação e aplicaria na poupança
+            <br>
+            <input type="radio" name="questao5" value="op2">Manteria aplicação aguardando uma melhora do mercado
+            <br>
+            <input type="radio" name="questao5" value="op3">Aumentaria a aplicação para aproveitar as oportunidades do mercado <br>
+        </div>
+        <p>Como está distribuído o seu patrimônio?</p>
+        <div class="respostas">
+            <input type="radio" name="questao6" value="op1">Meu patrimônio não está aplicado ou está todo aplicado em renda fixa e/ou imóveis<br>
+            <input type="radio" name="questao6" value="op2">Menos de 25% em renda variável e o restante em renda fixa e/ou imóveis<br>
+            <input type="radio" name="questao6" value="op3">Entre 25,01 e 50% aplicado em renda variável e o restante em renda fixa e/ou imóveis<br>
+            <input type="radio" name="questao6" value="op4">Acima de 50% em renda variável<br>
+        </div>
+        <p>Em relação as aplicações e rendimentos, em qual dessas situações você se enquadra?</p>
+        <div class="respostas">
+            <input type="radio" name="questao7" value="op1">Conto com o rendimento dessas aplicações para complementar minha renda mensal<br>
+            <input type="radio" name="questao7" value="op2">Eventualmente posso resgatar parte das aplicações para fazer frente aos meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e pretendo fazer aplicações regulares
+            <br>
+            <input type="radio" name="questao7" value="op3">Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer aplicações regulares<br>
+            <input type="radio" name="questao7" value="op4">Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar novas aplicações<br>
+        </div>
+        <p>Qual sua faixa de renda mensal média?</p>
+        <div class="respostas">
+            <input type="radio" name="questao8" value="op1">Até R$ 1.000<br>
+            <input type="radio" name="questao8" value="op2">De R$ 1.001 até R$ 5.000<br>
+            <input type="radio" name="questao8" value="op3">De R$ 5.001 até R$ 10.000<br>
+            <input type="radio" name="questao8" value="op4">Acima de R$ 10.000<br>
+        </div>
+        <p>Qual o valor aproximado do seu patrimônio?</p>
+        <div class="respostas">
+            <input type="radio" name="questao9" value="op1">Até R$ 10.000<br>
+            <input type="radio" name="questao9" value="op2">De R$ 10.001 até R$ 100.000<br>
+            <input type="radio" name="questao9" value="op3">De R$ 100.001 até R$ 1.000.000<br>
+            <input type="radio" name="questao9" value="op4">Acima de R$ 1.000.001<br>
+        </div>
+        <footer>
+            <button class="next_btn" onclick="validarRespostas()">GERAR MEU PERFIL</button>
+        </footer>
+
+    <script>
+    </script>
+
+</body>
+</html>

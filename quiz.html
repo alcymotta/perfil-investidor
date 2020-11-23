@@ -90,6 +90,7 @@
             var investAgre = 10;
             var investSup = 15;
             var total = 0;
+            var perfil;
 
             if (document.querySelector('input[name = resposta]:checked')) {
                 if (document.querySelector('input[name = resposta]:checked').value == "op1") {
@@ -200,15 +201,16 @@
             }
 
             if (total <= 10) {
-                console.log('Conservador');
+                perfil = ('Conservador');
             } else if (total >= 11 && total <= 50) {
-                console.log('Moderado');
+                perfil = ('Moderado');
             } else if (total >= 51 && total <= 100) {
-                console.log('Agressivo');
+                perfil = ('Agressivo');
             } else if (total > 101) {
-                console.log('Superagressivo');
+                pefil = ('Superagressivo');
             }
             console.log(total);
+            console.log(perfil);
         }
     </script>
 
