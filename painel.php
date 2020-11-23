@@ -29,7 +29,7 @@ include('source/verifica_login.php');
             <div class="mxw800p">
                 <h3>Olá, <?php echo $_SESSION['usuario'];?></h3>
                 <p>Caso ainda não tenha feito o teste para saber qual seu tipo de perfil ou queira atualizar, basta clicar no botão abaixo.</p><br>
-                <a href="login.php" class="btn">Faça o teste</a><br>
+                <a href="login.php" class="btn">Faça o teste</a>
                 <p>O seu perfil de investidor é: <?php echo $_SESSION['perfil'];?>, e abaixo temos algumas opções de investimentos aconselháveis de acordo com o seu perfil</p>
             </div>
         </div>
