@@ -8,12 +8,6 @@ foreach ($_REQUEST as $key => $value) {
 
 $page = "";
 
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
-echo "action=> " .$validaSessao;
-exit();
-
 if($action === 'Login') {
     $result = userValite($usuario, $senha);
     if(!empty($result)) {
