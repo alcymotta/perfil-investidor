@@ -38,4 +38,14 @@ function createUser($array_post) {
         echo 'Exceção capturada: ',  $e->getMessage(), "\n";
     }
 }
+
+//function setPerfil($perfil)
+//{
+//    try {
+//        $query = "UPDATE usuario SET perfil='$perfil' WHERE usuario='$usuario'";
+//        query_execute($query) or die();
+//    } catch (Exception $e) {
+//        echo 'Perfil inserido: ', $e->getMessage(), "\n";
+//    }
+//}
 ?>

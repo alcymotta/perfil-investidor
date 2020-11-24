@@ -18,7 +18,7 @@
             <li>
                 <a href="#investimentos" onclick="toggle()">investimentos</a></li>
             <li><a href="#contact" onclick="toggle()">contato</a></li>
-            <li><a href="painel_login.php">login</a></li>
+            <li><a href="source/pages/painel_login.php">login</a></li>
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
@@ -34,7 +34,7 @@
                 <p>Serve para orientar as escolhas de produtos compatíveis com seus objetivos, de acordo com a sua
                     tolerância a risco e as suas expectativas de investimento.</p>
                 <form action="infra/validation/validate.php" method="POST">
-                    <a href="source/infra/validation/validate.php" type="submit" name="validaSessao" class="btn">Faça o teste</a>
+                    <a href="source/pages/painel_login.php" type="submit" name="validaSessao" class="btn">Faça o teste</a>
                 </form>
             </div>
             <div class="perfis">

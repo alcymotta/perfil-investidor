@@ -7,7 +7,7 @@ session_start();
 
 <head>
     <title>Qual seu perfil de investidor?</title>
-    <link rel="stylesheet" type="text/css" href="css/styleCadastro.css">
+    <link rel="stylesheet" type="text/css" href="../../css/styleCadastro.css">
 </head>
 
 <body>

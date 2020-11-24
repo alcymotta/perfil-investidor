@@ -9,7 +9,7 @@ session_start();
     <meta name="viewport" content="width-device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Qual seu perfil de investidor?</title>
-    <link rel="stylesheet" type="text/css" href="css/styleLogin.css">
+    <link rel="stylesheet" type="text/css" href="../../css/styleLogin.css">
 </head>
 
 <body>
@@ -20,11 +20,11 @@ session_start();
                 <form action="../infra/validation/validate.php" method="POST">
                     <div class="inputBx">
                         <input name="usuario" type="text" placeholder="Usuário">
-                        <img src="img/user.png">
+                        <img src="../../img/user.png">
                     </div>
                     <div class="inputBx">
                         <input name="senha" type="password" placeholder="Senha">
-                        <img src="img/lock.png">
+                        <img src="../../img/lock.png">
                     </div>
                     <label class="remember"><input type="checkbox"> Lembrar-me</label>
                     <div class="inputBx">
@@ -33,16 +33,16 @@ session_start();
                 </form>
                 <p>Esqueci minha <a href="#">senha</a></p>
                 <p>Criar uma <a href="cadastro.php">conta</a></p>
-                
+
                 <?php
-                if(isset($_SESSION['nao_autenticado'])):
+                if(isset($_POST['nao_autenticado'])):
                 ?>
                 <div class="is-error">    
                     <p>ERRO: Usuário ou senha inválidos.</p>
                 </div>
                 <?php                
                 endif;
-                unset($_SESSION['nao_autenticado']);
+                unset($_POST['nao_autenticado']);
                 ?>
             </div>
         </div>
