@@ -1,8 +1,6 @@
 <?php
-session_start();
-include('source/verifica_login.php');
+    session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -19,7 +17,7 @@ include('source/verifica_login.php');
         <a href="#" class="logo">LOGO</a>
         <ul>
             <li><a href="index.html" onclick="toggle()">home</a></li>
-            <li><a href="source/logout.php">logout</a></li>
+            <li><a href="logout.php">logout</a></li>
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
