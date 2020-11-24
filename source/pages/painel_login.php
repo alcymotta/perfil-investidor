@@ -17,7 +17,7 @@ session_start();
         <div class="box">
             <div class="form">
                 <h2>Login</h2>
-                <form action="source/login.php" method="POST">
+                <form action="../infra/validation/validate.php" method="POST">
                     <div class="inputBx">
                         <input name="usuario" type="text" placeholder="Usuário">
                         <img src="img/user.png">
@@ -28,7 +28,7 @@ session_start();
                     </div>
                     <label class="remember"><input type="checkbox"> Lembrar-me</label>
                     <div class="inputBx">
-                        <input type="submit" value="Login">
+                        <input type="submit" name="action" value="Login">
                     </div>
                 </form>
                 <p>Esqueci minha <a href="#">senha</a></p>

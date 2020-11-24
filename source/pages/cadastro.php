@@ -15,7 +15,7 @@ session_start();
         <div class="box">
             <div class="form">
                 <h2>Cadastrar</h2>
-                <form action="source/cadastrar.php" method="POST">
+                <form action="../infra/validation/validate.php" method="POST">
                     <div class="inputBx">
                         <input name="nome" type="text" placeholder="Nome">
                     </div>
@@ -26,7 +26,7 @@ session_start();
                         <input name="senha" type="password" placeholder="Senha">
                     </div>
                     <div class="inputBx">
-                        <input type="submit" value="Cadastrar">
+                        <input type="submit" name="action" value="Cadastrar">
                     </div>
                 </form>
                 <p>Já tenho uma conta, fazer <a href="painel_login.php">login</a></p>
